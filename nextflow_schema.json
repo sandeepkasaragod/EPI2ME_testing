@@ -34,6 +34,7 @@
 		"reference_genome": {
                     "type": "string",
                     "title": "Reference genome",
+		    "format": "path",
                     "description": "Choose the reference genome",
                     "help_text": "reference must be indexed using bwa index"
                 }
@@ -84,6 +85,7 @@
                 "prefix": {
                     "type": "string",
                     "title": "Output filename prefix",
+		    "format": "path",
                     "description": "Optional prefix attached to each of the output filenames.",
                     "help_text": "Output filename format will be `<prefix>-filename.ext`."
                 }
