@@ -35,8 +35,8 @@
                     "type": "string",
                     "title": "Reference genome",
                     "description": "Choose the reference genome",
-                    "help_text": "reference must be indexed using bwa index",
-                },
+                    "help_text": "reference must be indexed using bwa index"
+                }
 	    },
             "allOf": [
                 {
